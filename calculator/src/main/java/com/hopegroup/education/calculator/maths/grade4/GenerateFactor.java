@@ -13,7 +13,12 @@ public class GenerateFactor {
     }
 
     public static int generate1Digit() {
-        int max=10,min=1;
+        int max=10,min=2;
+        return (int) (Math.random()*(max-min)+min);
+    }
+
+    public static int generateRandomDigit() {
+        int max = 1000, min = 2;
         return (int) (Math.random()*(max-min)+min);
     }
 
